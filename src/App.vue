@@ -1,8 +1,11 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <b-navbar variant="faded" type="light">
+        <b-navbar-brand href="#card">En ce moment</b-navbar-brand>
+        <b-navbar-brand href="#map">Carte</b-navbar-brand>
+        <b-navbar-brand href="#contact">Contact</b-navbar-brand>
+      </b-navbar>
     </div>
     <router-view/>
   </div>
@@ -19,6 +22,10 @@
 
 #nav {
   padding: 30px;
+}
+
+navbar{
+  justify-content: center;
 }
 
 #nav a {
