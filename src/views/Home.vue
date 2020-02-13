@@ -8,7 +8,7 @@
       </b-col>
       <b-col sm="6">
         <h1>Les fruits de saisons</h1>
-        <p>lorem ipsum </p>
+        <p>Popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
       </b-col>
 
     </b-row>
@@ -72,7 +72,13 @@
 
     <b-container id="contact">
       <b-row>
-        <InputEmail/>
+        <b-col sm="6">
+          <InputEmail/>
+        </b-col>
+        <b-col sm="6">
+          <h2>A Propos</h2>
+          <p> Grâce au calendrier des fruits et légumes, choisissez vos produits de saison pour préparer vos conserves maison, et enfermez ainsi dans vos bocaux toutes les bonnes saveurs des aliments pour en profiter tout le reste de l’année ! Les fruits et légumes de saison n'auront désormais plus de secrets pour vous. </p>
+        </b-col>
       </b-row>
 
     </b-container>
